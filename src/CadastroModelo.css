@@ -1,0 +1,128 @@
+.colunaMeio{
+  min-width: 700px;
+}
+
+.componentesList{
+  padding: 2px;
+}
+
+.barraFiltroEditarModelo{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-height: 640px;
+  border-style: groove;
+  border-radius: 0.2rem; 
+  border-color: lightgray;
+}
+
+.menusModeloEditar{
+  margin-left: 25px;
+}
+
+.nomeModeloEditarLabel{
+  margin-top: 5px;
+  margin-left: 0px;
+  
+}
+
+.campoEditarNomeModelo{
+  display: flex;
+    flex-direction: row;
+    min-width: 200px;
+    max-width: 220px;
+    height: 25px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.fabLabelEditaModelo{
+  margin-top: 10px
+}
+
+.dropDownFabricanteEditaModelo{
+  display: flex;
+  flex-direction: row;
+  min-width: 220px;
+  max-width: 220px;
+  margin-left: 0px;
+  margin-bottom: auto;
+}
+
+.tipoLableEditarModelo{
+  margin-top: 5px
+}
+
+.dropDownTipoEditaModelo{
+  max-width: 220px;
+}
+
+.labelStatusEditarModelo{
+  margin-top: 10px;
+}
+
+.seletorStatusModeloEditar{
+  display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left: 15px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.modeloFiguraCadastro {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-top: 5px;
+  margin-left: 0px;
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  min-width: 350px;
+  min-height: 350px;
+  max-width: 400px;
+  max-height: 400px;
+    
+}
+
+.modeloEditFiguraQuadro{
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.imgPlace{
+  margin-top: 5px;
+}
+
+.btnAddImg{
+  margin-top: 150px;
+  max-width: 100%;
+  
+}
+
+.insertImgModelo{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  
+}
+
+.iconeRemove {
+  padding: 5px;
+}
+
+.areaNomeModelo{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+  
+.btnListEditModelo{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+

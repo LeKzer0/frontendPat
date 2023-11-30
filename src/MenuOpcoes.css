@@ -1,0 +1,71 @@
+@import "bootstrap";
+
+.bg-body-tertiary{
+    margin-left: 0px;
+}
+
+.containerMenuOpcoes{
+  margin-left: 5px;
+  display: grid;
+  align-items: center;
+}
+.BarraMenu{
+  display: flex;
+  align-items: center;
+    
+}
+
+.cadastroDropdown{
+    margin-left: 10%;
+    display: flex;
+    
+}
+
+.relatorioDropdown{
+    display: flex;
+    margin-left: 10%;
+
+}    
+
+.usuarioDropdown{
+    display: flex;
+    margin-left: 10%;
+}
+
+.colNomeDeUsuario{
+  min-width: 150px;
+  max-width: 200px;
+  min-height: auto;
+  max-height: 40px;
+  padding-bottom: 0px;
+  
+}
+
+.nomeLogado{
+  flex: auto;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  min-height: auto;
+  max-height: auto;
+  min-width: 150px;
+  max-width: 150px;
+  overflow: hidden;
+  
+}
+
+.colIconSair{
+  max-width: 50px;
+  text-align: right;
+}
+
+.btSair{
+  padding-right: 20px;
+}
+
+.iconUser{
+  
+  padding-right: 10px;
+  text-align: right;
+}

@@ -1,0 +1,54 @@
+.componentesList {
+  padding: 2px;
+}
+
+.barraFiltro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 205px;
+  border-style: groove;
+  border-radius: 0.2rem;
+  border-color: lightgray;
+}
+
+.nomeFabricanteLabel {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.campoNomeFabricanteFiltro {
+  display: flex;
+  flex-direction: row;
+  width: 215px;
+  margin-left: 25px;
+}
+
+.cnpjLabel {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.campoCNPJFabricanteFiltro {
+  display: flex;
+  flex-direction: row;
+  width: 215px;
+  margin-left: 25px;
+}
+
+.btnPesquisarFabricante {
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.quadroLista {
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}

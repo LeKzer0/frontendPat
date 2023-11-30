@@ -1,0 +1,28 @@
+.btnListTable{
+    margin-bottom: 5px;
+}
+
+.divTableUser{
+    overflow: scroll;
+    max-height: 450px
+}
+
+.divTableIens{
+    overflow: scroll;
+    max-height: 510px
+}
+
+.divTableHist{
+    overflow: scroll;
+    max-height: 270px
+}
+
+.divTableRelatorio{
+    overflow: scroll;
+    max-height: 450px 
+}
+
+.divTableFab{
+    overflow: scroll;
+    max-height: 550px
+}

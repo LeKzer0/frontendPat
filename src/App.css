@@ -1,0 +1,26 @@
+.containerLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+.tfusername{
+  background-color: lightgrey;
+  margin-top: 20%;
+  margin-bottom: 2%;
+  border-radius: 0.2rem;
+}
+
+.tfsenha{
+  background-color: lightgrey;
+  margin-bottom: 2%;
+  border-radius: 0.2rem;
+}
+
+.btentrar{
+  margin-bottom: 27%;
+  background-color: darkgray;
+  color: white;
+  border-radius: 0.2rem;
+  min-width: 170px;
+ }

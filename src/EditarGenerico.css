@@ -1,0 +1,82 @@
+.componentesList{
+  padding: 2px;
+}
+
+.barraFiltroEditarGenerico{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  max-height: 240px;
+  border-style: groove;
+  border-radius: 0.2rem; 
+  border-color: lightgray;
+}
+  
+  .labelStatusGenerico{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+  }
+  
+  .seletorStatusGenerico{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+    
+  .labelDescricaoGenerico{
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .campoDescricaoGenerico{
+    display: flex;
+    flex-direction: row;
+    min-width: 150px;
+    max-width: 220px;
+    height: 25px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+  }
+
+  
+  .formCFeedbackDescricaoGen{
+    margin-left: 15px;
+  }
+
+  
+  .labelStatusGenerico{
+      display: flex;
+      flex-direction: row;
+      padding-left: 0px;
+      
+      }
+
+  .btnListEditarGenerico{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    height: 40px;
+  }
+
+  .btnConfirmar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px; 
+    margin-top: 0px;
+    margin-bottom: 10px;     
+  }
+
+  .btnVoltar{
+    display: flex;
+    flex-direction: row;
+   margin-left: 0px; 
+   margin-top: 0px;
+   margin-bottom: 10px;  
+  }
+
+ 

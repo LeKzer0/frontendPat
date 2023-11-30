@@ -1,0 +1,55 @@
+.componentesList{
+  padding: 2px;
+}
+
+.barraFiltroGenerico{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-height: 140px;
+  border-style: groove;
+  border-radius: 0.2rem; 
+  border-color: lightgray;
+}
+
+
+.btnPesquisarGenerico{
+  margin-left: 25px; 
+  margin-top: 15px;
+}
+
+.campoNomeGenericoFiltro {
+  display: flex;
+  flex-direction: row;
+  width: 215px;
+  margin-left: 25px;
+}
+
+.NomeGenericoLabel{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.quadroListaGenerico{
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  padding-top: 10px;
+  
+}
+
+.btnListTable{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.divTableGen{
+  overflow: scroll;
+    max-height: 510px
+}
+
+

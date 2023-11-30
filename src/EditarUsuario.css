@@ -1,0 +1,124 @@
+  .quadroLista{
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  margin: 2px;  
+}
+.linhaStatusUsuario {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+.switchAdm {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.campoCadastroNomeCompleto {
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  max-width: 300px;
+  height: 25px;
+  margin-left: 0px;
+}
+
+.campoCadastroCPF {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  max-width: 200px;
+  height: 25px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.campoNomeDeUsuario {
+  display: flex;
+  width: 200px;
+  height: 25px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.campoSenha {
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+  max-width: 200px;
+  height: 25px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.identificadorStatus {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+}
+
+.seletorStatusUsuario {
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.identificadorNomeCompleto {
+  display: flex;
+  flex-direction: row;
+  min-width: 72px;
+  height: 50px;
+}
+
+.identificadorCPF {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: auto;
+}
+
+.identificadorNomeUsuario {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+}
+
+.identificadorSenha {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+}
+
+.btnList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  height: 40px;
+}
+
+.btnConfirmar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.btnVoltar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

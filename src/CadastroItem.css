@@ -1,0 +1,268 @@
+.componentesList{
+  padding: 2px;
+}
+
+.barraFiltroCadastroItem{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-height: 400px;
+  border-style: groove;
+  border-radius: 0.2rem; 
+  border-color: lightgray;
+}
+
+.barraFiltroEditarItem{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  min-height: 640px;
+  border-style: groove;
+  border-radius: 0.2rem; 
+  border-color: lightgray;
+}
+
+
+  .linhaStatus{
+    display: flex;
+    width: 300px;
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+  }
+
+   
+  .linhaNumeroPat{
+    display: flex;
+      width: 300px;
+      height: 25px;
+      margin-left: 0px;
+      margin-top: 15px; 
+      margin-bottom: 10px;
+  }
+  
+  .linhaNumeroSerie{
+    display: flex;
+      width: 300px;
+      height: 25px;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+  }
+
+  .linhaFabricante{
+    display: flex;
+    width: 300px;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+  }
+
+  .linhaSetor{
+    display: flex;
+    width: 300px;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+  }
+
+  .linhaTipo{
+    display: flex;
+    width: 300px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+
+  .linhaSituacao{
+    display: flex;
+    width: 300px;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+  }
+
+  .linhaModelo{
+    display: flex;
+    width: 300px;
+      margin-left: 0px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+  }
+
+  .selectStatusModelo{
+    display: flex;
+    width: 250px;
+    margin-left: 47px;
+    margin-top: 0px;
+  }
+
+  .selectFabricante{
+    display: flex;
+      width: 300px;
+      margin-left: 0px;
+      margin-top: 0px;
+      
+  }
+
+  .selectTipo{
+    display: flex;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .selectSetor{
+    display: flex;
+      width: 240px;
+      margin-left: 30px;
+      margin-top: 0px;
+      
+  }
+
+  .selectSituacao{
+    display: flex;
+      width: 240px;
+      margin-left: 30px;
+      margin-top: 0px;
+      
+  }
+
+  .selectModelo{
+    display: flex;
+      width: 300px;
+      margin-left: 0px;
+      margin-top: 0px;
+      
+  }
+
+  .containerLocalItem {
+    margin-top: 0px;
+    border-style: groove;
+    border-color: lightgray;
+    border-radius: 0.2rem;
+    min-width: 128px;
+    min-height: 128px;
+  }
+
+  .containerObservacaoItem {
+    margin-top: 0px;
+    border-style: groove;
+    border-color: lightgray;
+    border-radius: 0.2rem;
+    min-width: 128px;
+    min-height: 128px;
+  }
+
+  .containerObservacaoItemCad {
+    margin-top: 10px;
+    border-style: groove;
+    border-color: lightgray;
+    border-radius: 0.2rem;
+    min-width: 128px;
+    min-height: 128px;
+  }
+
+  .containerLocalItemCad {
+    margin-top:10px;
+    border-style: groove;
+    border-color: lightgray;
+    border-radius: 0.2rem;
+    min-width: 128px;
+    min-height: 128px;
+  }
+
+  .containerTabelaHistorico{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-color: lightgray;
+    border-radius: 0.2rem;
+    min-width: 256px;
+    min-height: 256px;
+  }
+
+  .btnConsultarHistorico{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .btnItens{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .identificadorPat{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+  }
+
+  .campoNumeroPat{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    margin-left: 10px;
+    margin-bottom: auto;
+  }
+
+  .identificadorStatus{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+  }
+
+  .identificadorSerie{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+  }
+
+  .campoNumeroSerie{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    margin-left: 20px;
+  }
+
+  .identificadorFabricante{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+  }
+
+  .identificadorSetor{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+  }
+  
+  .identificadorTipo{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin-top: 15px;
+  }
+
+  .identificadorSituacao{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    margin-left: 0px;
+  }
+
+  .identificadorModelo{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+  }
+  
+  .modeloFiguraQuadro{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px;
+  }
+  

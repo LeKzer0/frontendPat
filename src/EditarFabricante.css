@@ -1,0 +1,93 @@
+.quadroLista{
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  margin: 2px;  
+}
+
+.areaNomeCompleto{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+  
+  .selectStatusFabricante{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  
+  .campoCadastroNomeFabricante{
+    display: flex;
+    flex-direction: row;
+    min-width: 200px;
+    max-width: 300px;
+    height: 25px;
+    margin-left: 0px;
+    margin-bottom: auto;
+  }
+  
+  .campoCadastroCNPJ{
+    display: flex;
+    min-width: 150px;
+    max-width: 200px;
+      height: 25px;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom: auto;
+  }
+
+  .identificadorNome{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+  }
+
+  .identificadorCNPJ{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+  }
+
+  .identificadorStatus{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin-top: 5px;
+  }
+
+  .seletorStatusFab{
+    display: flex;
+  flex-direction: row;
+  width: 90px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  }
+
+  .btnList{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  .btnConfirmar{
+    display: flex;
+    flex-direction: row;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 0px;     
+  }
+
+  .btnVoltar{
+    display: flex;
+    flex-direction: row;
+   margin-left: 0px; 
+   margin-top: 5px;
+   margin-bottom: 5px;  
+  }

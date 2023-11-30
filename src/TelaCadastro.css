@@ -1,0 +1,21 @@
+.componentesList{
+  padding: 2px;
+}
+
+.quadroLista{
+  border-style: groove;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  
+}
+
+.tipoList{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  
+}
+
+.titulo{
+  margin-bottom: 10px;
+}
